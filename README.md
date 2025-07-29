@@ -1,7 +1,7 @@
 # gEPICS
-This repository contains the generalized EPICS (gEPICS) code used to estimate the effective pairwise interaction coefficients and the full-species abundance in an n-species microbial community. 
+This repository contains the generalized EPICS (gEPICS) MATLAB code used to estimate the effective pairwise interaction coefficients and the full-species abundance in an n-species microbial community. 
 
-MATLAB code:
+Following are the inputs and outputs for this MATLAB code:
 
 Inputs:
 
@@ -14,7 +14,7 @@ Ouputs:
 1.   The effective pairwise interaction coefficients in nxn matrix form
 2.   The full species abundance in 1xn form
 
-Example:
+An example for gEPICS:
 
 Consider the synthetic human gut microbiome discussed in the manuscript, where there are species extinctions in leave-one-out subcommunities (Venturelli, O. S., A. V. Carr, G. Fisher, R. H. Hsu, R. Lau, B. P. Bowen, S. Hromada, T. Northen, and A. P. Arkin. 2018. Deciphering microbial interactions in synthetic human gut microbiome communities. Molecular Systems Biology 14:e8157.)
 
