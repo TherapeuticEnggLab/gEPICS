@@ -1,4 +1,4 @@
-%gEPICS: Generalized Effective Pairwise Interactions for predicting Community Structure
+%gEPICS: Generalized EPICS (Effective Pairwise Interactions for predicting Community Structure)
 
 %The following code takes the number of species in the community,
 %abundances in monoculture and leave-one-out subcommunities as inputs and
