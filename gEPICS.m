@@ -132,7 +132,7 @@ end
 full_species_abundance=-1*pinv(interaction_parameter)*r;
 
 %Printing the outputs
-disp('Effective Pairwise Interactions estimated using EPICS');
+disp('Effective Pairwise Interaction Coefficients estimated using gEPICS');
 interaction_parameter
-disp('Predicted Abundances in the original community using EPICS');
+disp('Predicted Abundances in the full species community using gEPICS');
 abundance = full_species_abundance'
