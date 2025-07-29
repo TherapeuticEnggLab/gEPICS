@@ -5,23 +5,23 @@
 %produces effective pairwise interaction coeffiecients and the full-species abundance as
 %outputs using gEPICS. Here, we assumed that the microbial community follows
 %the generalized Lotka-Volterra model.
-% We solve a system of linear equations (Ax=b) to obtain the effective pairwise interaction coefficients.
-% The 'A'(Abundance_Matrix) and 'b'(The_Rate_matrix) are obtained as follows.
-% We solve n^2 equations of which n*(n-1) equations correspond
-% to abundances in leave-one-out subcommunities and n equations to
-% monoculture abundances. The Abundance_Matrix is constructed in blocks. The
-% first n blocks are of n-1 rows each, with each block corresponding to a
-% leave-one-out experiment, starting from species 1 and ending with species n,
-% a total of n*(n-1) equations. Within a block, each row corresponds to the abundance of each species present 
-% in that leave-one-out experiment.The last block contains n equations each corresponding to 
-% monoculture abundances. The effective pairwise interaction coefficients (unknowns), 
-% are arranged in ascending order of species number(a11, a12, a13, ..., ann). 
-% The right-hand side vector 'b' is derived from the intrinsic
-% growth rates. We identified all the species that are extinct in leave-one-out
-% subcommunities and eliminated those rows in Abundance_Matrix and The_Rate_matrix
-% corresponding to these missing species, thereby making the system of equations
-% under-determined. We use pseudo-inverse to solve the remaining equations and
-% estimate all the unknowns.
+%We solve a system of linear equations (Ax=b) to obtain the effective pairwise interaction coefficients.
+%The 'A'(Abundance_Matrix) and 'b'(The_Rate_matrix) are obtained as follows.
+%We solve n^2 equations of which n*(n-1) equations correspond
+%to abundances in leave-one-out subcommunities and n equations to
+%monoculture abundances. The Abundance_Matrix is constructed in blocks. The
+%first n blocks are of n-1 rows each, with each block corresponding to a
+%leave-one-out experiment, starting from species 1 and ending with species n,
+%a total of n*(n-1) equations. Within a block, each row corresponds to the abundance of each species present 
+%in that leave-one-out experiment.The last block contains n equations each corresponding to 
+%monoculture abundances. The effective pairwise interaction coefficients (unknowns), 
+%are arranged in ascending order of species number(a11, a12, a13, ..., ann). 
+%The right-hand side vector 'b' is derived from the intrinsic
+%growth rates. We identified all the species that are extinct in leave-one-out
+%subcommunities and eliminated those rows in Abundance_Matrix and The_Rate_matrix
+%corresponding to these missing species, thereby making the system of equations
+%under-determined. We use pseudo-inverse to solve the remaining equations and
+%estimate all the unknowns.
 
 clear all;
 close all;
