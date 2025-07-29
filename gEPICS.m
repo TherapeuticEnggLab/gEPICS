@@ -10,7 +10,7 @@
 % The 'A'(Abundance_Matrix) and 'b'(The_Rate_matrix) are obtained as follows.
 % We solve n^2 equations of which n*(n-1) equations correspond
 % to abundances in leave-one-out subcommunities and n equations to
-% monoculture abundances. The matrix 'A' is constructed in blocks. The
+% monoculture abundances. The Abundance_Matrix is constructed in blocks. The
 % first n blocks are of n-1 rows each, with each block corresponding to a
 % leave-one-out experiment, starting from species 1 and ending with species n,
 % a total of n*(n-1) equations. Within a block, each row corresponds to the abundance of each species present 
