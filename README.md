@@ -50,7 +50,7 @@ Enter the abundances in leave-one-out subcommunities
 
 Outputs:
 
-Effective Pairwise Interactions estimated using gEPICS
+Effective Pairwise Interaction Coefficients estimated using gEPICS
 
 ```
 [-2.93057468569587	4.01044430476529	-0.507209147474193	-4.22432272803786	-0.905939714696374	-0.485343511022184	-0.356784073668509	-11.2744315994691	-0.726829894205718	-6.39411332042107	-34.0765550186790	3.19226393050808;
