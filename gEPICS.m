@@ -5,7 +5,6 @@
 %produces effective pairwise interaction coeffiecients and the full-species abundance as
 %outputs using gEPICS. Here, we assumed that the microbial community follows
 %the generalized Lotka-Volterra model.
-
 % We solve a system of linear equations (Ax=b) to obtain the effective pairwise interaction coefficients.
 % The 'A'(Abundance_Matrix) and 'b'(The_Rate_matrix) are obtained as follows.
 % We solve n^2 equations of which n*(n-1) equations correspond
