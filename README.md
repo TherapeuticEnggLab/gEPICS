@@ -12,7 +12,7 @@ Inputs:
 Ouputs:
 
 1.   The effective pairwise interaction coefficients in nxn matrix form
-2.   The full species abundance in 1xn form
+2.   The full species abundance in 1xn vector form
 
 An example for gEPICS:
 
