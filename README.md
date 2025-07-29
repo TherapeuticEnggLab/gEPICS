@@ -5,14 +5,14 @@ MATLAB code:
 
 Inputs:
 
-(i) The number of species in the community (n)
-(ii) The monoculture abundances at steady-state
-(iii) The leave-one-out abundances at steady-state
+1. The number of species in the community (n)
+2. The monoculture abundances at steady-state
+3. The leave-one-out abundances at steady-state
 
 Ouputs:
 
-(i) The effective pairwise interaction coefficients in nxn matrix form
-(ii) The full species abundance in 1xn form
+1. The effective pairwise interaction coefficients in nxn matrix form
+2. The full species abundance in 1xn form
 
 Example:
 
