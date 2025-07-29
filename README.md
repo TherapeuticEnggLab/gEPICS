@@ -16,7 +16,7 @@ Ouputs:
 
 Example:
 
-This is shown using the synthetic human gut microbiome discussed in the manuscript, where there are species extinctions in leave-one-out subcommunities (Venturelli, O. S., A. V. Carr, G. Fisher, R. H. Hsu, R. Lau, B. P. Bowen, S. Hromada, T. Northen, and A. P. Arkin. 2018. Deciphering microbial interactions in synthetic human gut microbiome communities. Molecular Systems Biology 14:e8157.)
+Consider the synthetic human gut microbiome discussed in the manuscript, where there are species extinctions in leave-one-out subcommunities (Venturelli, O. S., A. V. Carr, G. Fisher, R. H. Hsu, R. Lau, B. P. Bowen, S. Hromada, T. Northen, and A. P. Arkin. 2018. Deciphering microbial interactions in synthetic human gut microbiome communities. Molecular Systems Biology 14:e8157.)
 
 Inputs:
 
