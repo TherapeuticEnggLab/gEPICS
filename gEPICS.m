@@ -110,7 +110,7 @@ Missing_Species = [subcommunity, species];
 Missing_Species(subcommunity == species, :) = [];
 
 
-%This section of the code makes the rows corresponding to the extinct species to zero from
+%This section of the code makes the rows corresponding to the extinct species to zero in
 %Larger_M matrix and The_big_R_matrix, thereby eliminating these equations
 for i=1:height(Missing_Species)
 Abundance_Matrix(((n-1)*(Missing_Species(i,1)-1))+Missing_Species(i,2),:)=zeros(1,n*n);
